@@ -19,7 +19,6 @@ void getMD5(const char *str, char *result) {
 int main(int aa, char *arg[]) {
     char result[33] = {0};
     getMD5("hello, md5", result);
-    printf("md5 你好value: %s\n", result);
     printf("md5 成功value: %s\n", result);
     system("pause");
 
